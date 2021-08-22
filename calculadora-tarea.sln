@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WScalculadora-tarea", "WScalculadora-tarea.csproj", "{BB037BA9-0595-4ECE-9E48-4076F1F54451}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBClienteCalculadora", "VBClienteCalculadora\VBClienteCalculadora.vbproj", "{007943EA-DF18-4BA4-B4A4-FC915575C741}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB037BA9-0595-4ECE-9E48-4076F1F54451} = {BB037BA9-0595-4ECE-9E48-4076F1F54451}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB037BA9-0595-4ECE-9E48-4076F1F54451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB037BA9-0595-4ECE-9E48-4076F1F54451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB037BA9-0595-4ECE-9E48-4076F1F54451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB037BA9-0595-4ECE-9E48-4076F1F54451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007943EA-DF18-4BA4-B4A4-FC915575C741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007943EA-DF18-4BA4-B4A4-FC915575C741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007943EA-DF18-4BA4-B4A4-FC915575C741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007943EA-DF18-4BA4-B4A4-FC915575C741}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E602ED8B-B3D0-4C5E-A1D3-CEF187CA7405}
+	EndGlobalSection
+EndGlobal
